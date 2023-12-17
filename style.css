@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3.5px solid rgba(0, 0, 0, 0.829);
+    background-color: beige;
+    /* font-family: ; */
+}
+
+header img {
+    margin-left: 200px;
+    height: 100px;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links a {
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+#toast {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: yellow;
+}
